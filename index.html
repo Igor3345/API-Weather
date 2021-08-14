@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body class="body">
+    <div class="content-box">
+        <div class="top"></div>
+        <div class="weather_main">
+            <div class="weather_container">
+                <h1 class='weather__error'>Проверте соединение с интернетом</h1>
+                <div class="city_input">
+                    <input type="text" placeholder="Введите название города" value="Москва">
+                    <button>Искать</button>
+                </div>
+                <div class="weather_info">
+
+                    <div class="weather_general">
+                        <div class="city_box">
+                            <div class="city_date">
+                                <h2 class="city_name"></h2>
+                                <span class="date"></span>
+                            </div>
+                            <div class="city_weather">
+                                <span class="feature_weather"></span>
+                                <span class="temperature"></span>
+                            </div>
+                        </div>
+                        <div class="general_weather_icon"></div>
+
+                    </div>
+                    <div class="weather_line">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
